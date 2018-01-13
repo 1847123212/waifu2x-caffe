@@ -7,7 +7,7 @@
 [Caffe](http://caffe.berkeleyvision.org/)を用いて書き直し、Windows向けにビルドしたソフトです。
 CPUで変換することも出来ますが、CUDA(あるいはcuDNN)を使うとCPUより高速に変換することが出来ます。
 
-GUI supports English, Japanese, Simplified Chinese, Traditional Chinese, Korean, Turkish, and French.
+GUI supports English, Spanish, Japanese, Simplified Chinese, Traditional Chinese, Korean, Russian, Turkish, and French.
 
 ソフトのダウンロードは[こちらのreleasesページ](https://github.com/lltcggie/waifu2x-caffe/releases)の「Downloads」の項で出来ます。
 
@@ -43,7 +43,7 @@ cuDNNを使わなくてもCUDAで変換出来ますが、cuDNNを使うと以下
 
 このような利点があるcuDNNですが、ライセンスの関係上動作に必要なファイルを配布することが出来ません。  
 なので、cuDNNを使いたい人は[こちらのページ](https://developer.nvidia.com/cuDNN)でWindows向けバイナリ(v5.1 RC以降)をダウンロードし、
-「cudnn64_6.dll」をwaifu2x-caffeのフォルダに入れて下さい。  
+「cudnn64_7.dll」をwaifu2x-caffeのフォルダに入れて下さい。  
 なお、ソフトを起動している最中にdllを入れた場合はソフトを起動しなおしてください。  
 (cuDNNをダウンロードするにはNVIDIA Developerへの登録とCUDA Registered Developersへの登録が必要です。
  CUDA Registered Developersはおそらく(簡単な)審査があるっぽいので登録してもすぐにcuDNNをダウンロード出来るわけではありません。)
